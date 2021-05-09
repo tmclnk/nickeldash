@@ -1,0 +1,15 @@
+{
+    "metrics": [
+        [ { "expression": "SEARCH('{PostmanCanaries,Env,Pod} MetricName=\"FailedAssertions\" Env=\"prod\"', 'Sum', 300)", "id": "e1", "period": 300, "region": "us-east-1", "yAxis": "left", "label": "" } ]
+    ],
+    "view": "timeSeries",
+    "stacked": false,
+    "title": "Prod Canary Failures",
+    "period": 300,
+    "stat": "Sum",
+    "width": 600,
+    "height": 415,
+    "start": "-PT3H",
+    "end": "P0D",
+    "timezone": "-0500"
+}
