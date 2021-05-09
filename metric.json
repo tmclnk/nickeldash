@@ -1,0 +1,18 @@
+{
+    "metrics": [
+        [ "PostmanCanaries", "ResponseTime", "Pod", "a", "Env", "prod" ],
+        [ "...", "c", ".", "." ],
+        [ "...", "d", ".", "." ],
+        [ "...", "b", ".", "." ]
+    ],
+    "view": "timeSeries",
+    "stacked": false,
+    "stat": "Average",
+    "period": 300,
+    "title": "Average Canary Time",
+    "width": 600,
+    "height": 415,
+    "start": "-PT3H",
+    "end": "P0D"
+}
+
